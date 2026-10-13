@@ -1,0 +1,36 @@
+venv/
+__pycache__/
+output/
+history/
+*.pyc
+.idea/
+app.log
+.env
+backend/.env
+*.dump
+backend/venv
+frontend/node_modules
+frontend/dist
+.pnpm_home
+.pnpm_cache
+.tmp_build
+pip-*build-tracker-*
+pip-*metadata-*
+pip-*unpack-*
+pip-*wheel-cache-*
+pip-*install-*
+
+# pytest
+.pytest_cache/
+backend/.pytest_cache/
+.pytest_tmp/
+backend/.pytest_tmp/
+/backend/scripts/backups/
+.venv/
+backend/.venv/
+.DS_Store
+
+# Windows ACL 修复的本地备份/报告（不入库，见 docs 环境记录）
+.acl-recovery/
+
+.git-old-backup/
